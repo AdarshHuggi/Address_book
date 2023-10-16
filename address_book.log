@@ -1,0 +1,18 @@
+get address api endpoint failed 'NoneType' object has no attribute 'address'
+get address api endpoint failed list index out of range
+get address api endpoint failed 'NoneType' object has no attribute 'address'
+get address api endpoint failed (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: " Karnataka"
+LINE 1: ...li', ' Ramanagara taluk', ' Ramanagara District', ' Karnatak...
+                                                             ^
+
+[SQL: INSERT INTO address_book (town, district, state, pincode, country) VALUES (%(town)s, %(district)s, %(state)s, %(pincode)s, %(country)s) RETURNING address_book.id]
+[parameters: {'town': 'Annihalli', 'district': ' Ramanagara taluk', 'state': ' Ramanagara District', 'pincode': ' Karnataka', 'country': ' India'}]
+(Background on this error at: https://sqlalche.me/e/14/9h9h)
+get address api endpoint failed cannot access local variable 'address' where it is not associated with a value
+get address api endpoint failed (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: " Karnataka"
+LINE 1: ...li', ' Ramanagara taluk', ' Ramanagara District', ' Karnatak...
+                                                             ^
+
+[SQL: INSERT INTO address_book (town, district, state, pincode, country, full_address) VALUES (%(town)s, %(district)s, %(state)s, %(pincode)s, %(country)s, %(full_address)s) RETURNING address_book.id]
+[parameters: {'town': 'Annihalli', 'district': ' Ramanagara taluk', 'state': ' Ramanagara District', 'pincode': ' Karnataka', 'country': ' India', 'full_address': None}]
+(Background on this error at: https://sqlalche.me/e/14/9h9h)
